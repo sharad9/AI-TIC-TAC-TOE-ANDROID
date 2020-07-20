@@ -24,10 +24,11 @@
             android:text="@Sharad Maddheshiya"
             android:textSize="25sp" />
 
+
         <TextView
             android:id="@+id/text_view_p1"
-            android:layout_width="48dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/text_view_p0"
             android:freezesText="true"
             android:text="X:0"
@@ -100,10 +101,10 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_weight="0.5"
-            android:background="#000000"
+            android:layout_weight="0.4"
+
             android:freezesText="true"
-            android:textColor="#999999"
+            android:textColor="#000000"
             android:textSize="60sp" />
 
         <Button
@@ -112,10 +113,10 @@
             android:layout_height="130dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_weight="0.5"
-            android:background="#000000"
+            android:layout_weight="0.4"
+
             android:freezesText="true"
-            android:textColor="#999999"
+            android:textColor="#000000"
             android:textSize="60sp" />
 
         <Button
@@ -124,10 +125,10 @@
             android:layout_height="130dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_weight="0.5"
-            android:background="#000000"
+            android:layout_weight="0.4"
+
             android:freezesText="true"
-            android:textColor="#999999"
+            android:textColor="#000000"
             android:textSize="60sp" />
 
     </LinearLayout>
@@ -143,10 +144,10 @@
             android:layout_height="130dp"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
-            android:layout_weight="0.5"
-            android:background="#000000"
+            android:layout_weight="0.4"
+
             android:freezesText="true"
-            android:textColor="#999999"
+            android:textColor="#000000"
             android:textSize="60sp" />
 
         <Button
@@ -155,10 +156,10 @@
             android:layout_height="130dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_weight="0.5"
-            android:background="#000000"
+            android:layout_weight="0.4"
+
             android:freezesText="true"
-            android:textColor="#999999"
+            android:textColor="#000000"
             android:textSize="60sp" />
 
         <Button
@@ -167,10 +168,10 @@
             android:layout_height="130dp"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
-            android:layout_weight="0.5"
-            android:background="#000000"
+            android:layout_weight="0.4"
+
             android:freezesText="true"
-            android:textColor="#999999"
+            android:textColor="#000000"
             android:textSize="60sp" />
 
     </LinearLayout>
@@ -186,10 +187,10 @@
             android:layout_height="130dp"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
-            android:layout_weight="0.5"
-            android:background="#000000"
+            android:layout_weight="0.4"
+
             android:freezesText="true"
-            android:textColor="#999999"
+            android:textColor="#000000"
             android:textSize="60sp" />
 
         <Button
@@ -198,10 +199,10 @@
             android:layout_height="130dp"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
-            android:layout_weight="0.5"
-            android:background="#000000"
+            android:layout_weight="0.4"
+
             android:freezesText="true"
-            android:textColor="#999999"
+            android:textColor="#000000"
             android:textSize="60sp" />
 
         <Button
@@ -210,10 +211,10 @@
             android:layout_height="130dp"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
-            android:layout_weight="0.5"
-            android:background="#000000"
+            android:layout_weight="0.4"
+
             android:freezesText="true"
-            android:textColor="#999999"
+            android:textColor="#000000"
             android:textSize="60sp" />
 
     </LinearLayout>
