@@ -84,7 +84,7 @@
             android:layout_weight="1"
             android:text="🄷🅄🄼🄰🄽 🄾🅅🄴🅁 🄷🅄🄼🄰🄽 "
 
-            android:textSize="30sp"
+            android:textSize="27sp"
             android:textStyle="bold" />
     </RelativeLayout>
 
