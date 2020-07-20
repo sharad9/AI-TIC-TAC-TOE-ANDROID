@@ -1,16 +1,14 @@
-package com.aide.trainer.myapp;
-
 package com.example.myapplication;
- import androidx.appcompat.app.AppCompatActivity;
- import android.os.Bundle;
- import android.view.View;
- import android.widget.Button;
- import android.widget.TextView;
- import android.widget.Toast;
- import java.util.ArrayList;
- import java.util.List;
- import java.util.Random;
- import android.graphics.Color;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import android.graphics.Color;
 
 
 
@@ -49,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 buttons[i][j].setOnClickListener(this);
             }
         }
-        getWindow().getDecorView().setBackgroundColor(Color.parseColor("#FFFFFF"));
+       //getWindow().getDecorView().setBackgroundColor(Color.argb(255,0,255,0));
 
         Button buttonReset = findViewById(R.id.button_reset);
         buttonReset.setOnClickListener(new View.OnClickListener() {
@@ -58,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 resetGame();
                 ai=true;
 
-                getWindow().getDecorView().setBackgroundColor(Color.parseColor("#FFFFFF"));
+              //  getWindow().getDecorView().setBackgroundColor(Color.argb(255,255,0,0));
             }
         });
         Button buttonAI = findViewById(R.id.button_AI);
@@ -66,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View v) {
                 resetGame();
-                getWindow().getDecorView().setBackgroundColor(Color.parseColor("#FFCCFF"));
+               // getWindow().getDecorView().setBackgroundColor(Color.argb(255,0,0,255));
 
                 ai=true;
 
@@ -80,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View v) {
                 resetGame();
-                getWindow().getDecorView().setBackgroundColor(Color.parseColor("#00FFFF"));
+            //    getWindow().getDecorView().setBackgroundColor(Color.argb(255,255,255,255));
 
 
 
@@ -98,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String pos="button_"+X+""+Y;
         int resID = getResources().getIdentifier(pos, "id", getPackageName());
         Button b=findViewById(resID);
-        b.setText("⭕");
+        b.setText("O");
 
 
         roundCount++;
@@ -117,11 +115,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if(human1==true || ai){
                     Board.box[0][0]="X";
 
-                    ((Button) v).setText("❌");
+                    ((Button) v).setText("X");
                 }else{
                     Board.box[0][0]="O";
 
-                    ((Button) v).setText("⭕");
+                    ((Button) v).setText("O");
                 }
 
 
@@ -132,11 +130,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if(human1==true || ai){
                     Board.box[0][1]="X";
 
-                    ((Button) v).setText("❌");
+                    ((Button) v).setText("X");
                 }else{
                     Board.box[0][1]="O";
 
-                    ((Button) v).setText("⭕");
+                    ((Button) v).setText("O");
                 }
 
 
@@ -148,11 +146,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if(human1==true || ai){
                     Board.box[0][2]="X";
 
-                    ((Button) v).setText("❌");
+                    ((Button) v).setText("X");
                 }else{
                     Board.box[0][2]="O";
 
-                    ((Button) v).setText("⭕");
+                    ((Button) v).setText("O");
                 }
 
                 roundCount++;
@@ -163,11 +161,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if(human1==true || ai){
                     Board.box[1][0]="X";
 
-                    ((Button) v).setText("❌");
+                    ((Button) v).setText("X");
                 }else{
                     Board.box[1][0]="O";
 
-                    ((Button) v).setText("⭕");
+                    ((Button) v).setText("O");
                 }
 
 
@@ -178,11 +176,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if(human1==true || ai){
                     Board.box[1][1]="X";
 
-                    ((Button) v).setText("❌");
+                    ((Button) v).setText("X");
                 }else{
                     Board.box[1][1]="O";
 
-                    ((Button) v).setText("⭕");
+                    ((Button) v).setText("O");
                 }
 
 
@@ -193,11 +191,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if(human1==true || ai){
                     Board.box[1][2]="X";
 
-                    ((Button) v).setText("❌");
+                    ((Button) v).setText("X");
                 }else{
                     Board.box[1][2]="O";
 
-                    ((Button) v).setText("⭕");
+                    ((Button) v).setText("O");
                 }
 
 
@@ -208,11 +206,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if(human1==true || ai){
                     Board.box[2][0]="X";
 
-                    ((Button) v).setText("❌");
+                    ((Button) v).setText("X");
                 }else{
                     Board.box[2][0]="O";
 
-                    ((Button) v).setText("⭕");
+                    ((Button) v).setText("O");
                 }
 
 
@@ -223,11 +221,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if(human1==true || ai){
                     Board.box[2][1]="X";
 
-                    ((Button) v).setText("❌");
+                    ((Button) v).setText("X");
                 }else{
                     Board.box[2][1]="O";
 
-                    ((Button) v).setText("⭕");
+                    ((Button) v).setText("O");
                 }
 
 
@@ -238,11 +236,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if(human1==true || ai){
                     Board.box[2][2]="X";
 
-                    ((Button) v).setText("❌");
+                    ((Button) v).setText("X");
                 }else{
                     Board.box[2][2]="O";
 
-                    ((Button) v).setText("⭕");
+                    ((Button) v).setText("O");
                 }
 
 
@@ -283,7 +281,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         b=findViewById(ID);
         Board.box[p.x][p.y]="O";
 
-        b.setText("⭕");
+        b.setText("O");
 
         roundCount++;
 
@@ -361,14 +359,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void draw() {
 
 
-        Toast.makeText(this, "🅳🆁🅰🆆! 😬", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "DRAW !", Toast.LENGTH_SHORT).show();
         resetBoard();
         Board.resetBoard();
     }
 
     private void updatePointsText() {
-        textViewPlayer1.setText("❌ :" + player1Points);
-        textViewPlayer2.setText("⭕ :" + player2Points);
+
+        textViewPlayer1.setText("X :" + player1Points);
+        textViewPlayer2.setText("O :" + player2Points);
     }
 
     private void resetBoard() {
